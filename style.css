@@ -110,8 +110,24 @@ body{
     position: relative;
     left: 40%;
     color: white;
-    /* padding-bottom: 10px;  */
     font-size: 22px;
     transform: rotate(-180deg);
     transition: all 1.5s;
+}
+
+.card .content a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 8px;
+    border: 1px solid white;
+    margin-top: 15px;
+    text-decoration: none;
+    font-size: 14px;
+    border-radius: 40px;
+}
+.card .content a:hover{
+    background-color: white;
+    color: #380e74;
 }
