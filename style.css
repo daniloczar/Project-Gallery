@@ -107,6 +107,7 @@ body{
     padding-bottom: 15px;
     text-indent: 10px;
     text-transform: uppercase;
+    width: 150px;
 }
 
 .card .desc{
@@ -120,7 +121,7 @@ body{
 .arrow {
     display: inline-block;
     position: relative;
-    left: 40%;
+    left: 33%;
     color: white;
     font-size: 22px;
     transform: rotate(-180deg);
